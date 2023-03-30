@@ -1,0 +1,28 @@
+.encabezado__inicio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 30px;
+}
+
+.encabezado__search{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.encabezado__btn{
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+    width: 182px;
+    height: 51px;
+    font-size: 16px;
+    color: #2A7AE4;
+    background-color: #fff;
+}
+
+.encabezado__btn:hover{
+    color: #fff;
+    background-color: #2A7AE4;
+    cursor: pointer;
+}

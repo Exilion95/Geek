@@ -5,13 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geek - inicio</title>
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/encabezado.css">
 </head>
 <body>
     <section class="container">
         <div class="encabezado__inicio">
-            <img src="/assets/img/LogoGeek.png" alt="Logo" class="encabezado__img">
-            <button class="encabezado__btn" data-btn>Login</button>
+            <div class="encabezado__search">
+                <img src="/assets/img/LogoGeek.png" alt="Logo" class="encabezado__img">
+                <form>
+                    <input placeholder="Buscar algo...">
+                    <button><img alt="Lupa"></button>
+                </form>
+            </div>
+            <button type="button" class="encabezado__btn" data-btn>Login</button>
         </div>
         <div class="banner">
             <h1 class="banner__titulo">
