@@ -1,0 +1,48 @@
+.producto{
+    display: flex;
+    flex-direction: column;
+}
+
+.producto__cabecera{
+    display: flex;
+    justify-content: space-between;
+}
+
+.producto__titulo{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.producto__link{
+    color: #2A7AE4;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.producto__box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto__lista{
+    display: flex;
+    flex-direction: column;
+}
+
+.producto__img{
+    width: 176px;
+    height: 174px;
+}
+
+.producto__nombre{
+    font-size: 14px;
+    color: #464646;
+}
+
+.producto__precio{
+    font-size: 14px;
+    color: #464646;
+    font-weight: 700;
+}

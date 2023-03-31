@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/encabezado.css">
     <link rel="stylesheet" href="/assets/css/baner.css">
+    <link rel="stylesheet" href="/assets/css/productos.css">
 </head>
 <body>
     <section>
@@ -32,45 +33,31 @@
             </div>
         </div>
     </section>
+<!-- Creamos la seccion de los productos/Consolas-->
+    <section class="container">
+        <div class="producto">
+            <div class="producto__cabecera">
+                <h class="producto__titulo">Consolas</h>
+                <a class="producto__link" href="#"> Ver Todo</a>
+            </div>
+            <div class="producto__box" data-consolas>
+                <!--Aqui se ejecuta la funcion para mostrar los datos de la BD de consolas-->
+            </div>
+        </div>
+    </section>
+<!-- Creamos la seccion de los productos/Consolas-->
+    <section class="container">
+        <div class="producto">
+            <div class="producto__cabecera">
+                <h class="producto__titulo">Juegos</h>
+                <a class="producto__link" href="#"> Ver Todo</a>
+            </div>
+            <div class="producto__box" data-juegos>
+                <!--Aqui se ejecuta la funcion para mostrar los datos de la BD de juegos-->
+            </div>
+        </div>
+    </section>
 
-    <section>
-        <div>
-            <div>
-                <h>Categoria</h>
-                <a href="#"> ver todo</a>
-            </div>
-            <div>
-                <div>
-                    <ul>
-                        <li><img alt="imagen producto"></li>
-                        <li>nombre producto</li>
-                        <li>presio</li>
-                        <li><a href="#">Ver producto</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div></div>
-        </div>
-    </section>
-    
-    <section>
-        <div>
-            <div>
-                <h>Categoria</h>
-                <a href="#"> ver todo</a>
-            </div>
-            <div>
-                <div>
-                    <ul>
-                        <li><img alt="imagen producto"></li>
-                        <li>nombre producto</li>
-                        <li>presio</li>
-                        <li><a href="#">Ver producto</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div></div>
-        </div>
-    </section>
+    <script src="/assets/scripts/productos.js" type="module"></script>
 </body>
 </html>

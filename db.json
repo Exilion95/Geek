@@ -1,9 +1,65 @@
 {
     "consolas":[
         {
-            "url": "",
-            "nombre": "",
-            "precio": 2000,
+            "url": "/assets/img/ps5.png",
+            "nombre": "PS5",
+            "precio": "$ 5.000.000",
+            "id": 1
+        },
+        {
+            "url": "/assets/img/ps5.png",
+            "nombre": "PS5",
+            "precio": "$ 5.000.000",
+            "id": 1
+        },
+        {
+            "url": "/assets/img/ps5.png",
+            "nombre": "PS5",
+            "precio": "$ 5.000.000",
+            "id": 1
+        },
+        {
+            "url": "/assets/img/ps5.png",
+            "nombre": "PS5",
+            "precio": "$ 5.000.000",
+            "id": 1
+        },
+        {
+            "url": "/assets/img/ps5.png",
+            "nombre": "PS5",
+            "precio": "$ 5.000.000",
+            "id": 1
+        }
+    ],
+    "juegos":[
+        {
+            "url": "/assets/img/ps5.png",
+            "nombre": "PS5",
+            "precio": "$ 3.000.000",
+            "id": 1
+        },
+        {
+            "url": "/assets/img/ps5.png",
+            "nombre": "PS5",
+            "precio": "$ 3.000.000",
+            "id": 1
+        },
+        {
+            "url": "/assets/img/ps5.png",
+            "nombre": "PS5",
+            "precio": "$ 3.000.000",
+            "id": 1
+        },
+        {
+            "url": "/assets/img/ps5.png",
+            "nombre": "PS5",
+            "precio": "$ 3.000.000",
+            "id": 1
+        },
+        {
+            "url": "/assets/img/ps5.png",
+            "nombre": "PS5",
+            "precio": "$ 3.000.000",
             "id": 1
         }
     ]
