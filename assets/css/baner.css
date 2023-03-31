@@ -1,0 +1,25 @@
+.banner{
+    height: 352px;
+    background-image: url(/assets/img/banner-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner__texto{
+    display: flex;
+    flex-direction: column;
+    padding: 150px 152px 32px 152px;
+    gap: 16px;
+}
+
+.banner__titulo{
+    color: white;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.banner_parrafo{
+    color: white;
+    font-size: 18px;
+}
